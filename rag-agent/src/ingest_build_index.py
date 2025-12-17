@@ -15,7 +15,7 @@ STORAGE_DIR = "./storage"
 # 中文 embedding：轻量、CPU可
 EMBED_MODEL_NAME = "BAAI/bge-small-zh-v1.5"
 
-# 分块参数（Day1 用简单稳定的）
+# 分块参数（简单稳定）
 CHUNK_SIZE = 500      # 每个 chunk 大约 500 个字符
 CHUNK_OVERLAP = 80
 
@@ -164,3 +164,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
